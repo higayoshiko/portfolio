@@ -16,23 +16,44 @@
 
 <body>
 
-  <header class="header">
-    <div class="container grid grid-2-columns">
-      <div>
-        <p class="heading-subcontent heading--gradient">Hello, my name is</p>
-        <h1 class="heading-primary">Yoshiko Higa.</h1>
-        <p class="heading-content">A self-taught Software Engineer.</p>
+  <header class="header" id="header">
+      <div class="container grid grid-2-columns">
+        <div>
+          <div class="all-headers header--main">
+            <p class="heading-subcontent heading--gradient">Hello, my name is</p>
+            <h1 class="heading-primary">Yoshiko Higa.</h1>
+            <p class="heading-content">A self-taught Software Engineer.</p>
+          </div>
+          <div class="all-headers discord display--none">
+            <p class="heading-content">Message me on Discord! <br />
+              <span class="header--hidden-info">Yushi#8385</span> <br />
+              Talk to you soon!
+            </p>
+          </div>
+          <div class="all-headers zoom display--none">
+            <p class="heading-content">Contact me on Zoom! <br />
+              <span class="header--hidden-info">higayoshiko@yahoo.com</span> <br />
+              Talk to you soon!
+            </p>
+          </div>
+        </div>
+        <div class="header__bg"></div>
       </div>
-      <div class="header__bg"></div>
-    </div>
-    <div class="contact-info">
-      <a href="https://github.com/higayoshiko">
-        <ion-icon name="logo-github"></ion-icon>
-      </a>
-      <ion-icon name="logo-linkedin"></ion-icon>
-      <ion-icon name="logo-discord"></ion-icon>
-      <ion-icon name="mail"></ion-icon>
-    </div>
+      <div class="contact-info">
+        <a href="https://github.com/higayoshiko">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://linkedin.com/in/yoshiko-higa">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a href="#header">
+          <ion-icon class="contact-info--appear" name="logo-discord"></ion-icon>
+        </a>
+        <a href="#header">
+          <ion-icon class="contact-info--appear" name="videocam"></ion-icon>
+        </a>
+      </div>
+    <p class="header-email">higayoshiko<span class="at">@</span>yahoo.com</p>
   </header>
 
   <main>
@@ -47,17 +68,18 @@
               <ul class="u-list">
                 <li class="heading-subcontent transform--caps">html5</li>
                 <li class="heading-subcontent transform--caps">css</li>
-                <li class="heading-subcontent transform--caps">jquery</li>
+                <li class="heading-subcontent transform--caps">vanilla js</li>
+                <li class="heading-subcontent transform--caps">client-side api</li>
               </ul>
             </div>
             <div class="video__icons icons--left">
               <a href="#" class="video__link">
                 <ion-icon class="icon" name="information-circle"></ion-icon>
               </a>
-              <a href="#" class="video__link">
+              <a href="https://higayoshiko.github.io/Nippon-Exchange/" class="video__link">
                 <ion-icon class="icon" name="globe-outline"></ion-icon>
               </a>
-              <a href="#" class="video__link">
+              <a href="https://github.com/higayoshiko/Nippon-Exchange" class="video__link">
                 <ion-icon class="icon" name="code-slash"></ion-icon>
               </a>
             </div>
@@ -71,9 +93,10 @@
             <div class="video__texts video__texts--l">
               <h2 class="heading-secondary">The Red Planet</h2>
               <ul class="u-list">
-                <li class="heading-subcontent transform--caps">html5</li>
+                <li class="heading-subcontent transform--caps">ejs</li>
                 <li class="heading-subcontent transform--caps">sass</li>
-                <li class="heading-subcontent transform--caps">node</li>
+                <li class="heading-subcontent transform--caps">jquery</li>
+                <li class="heading-subcontent transform--caps">node/express</li>
                 <li class="heading-subcontent transform--caps">heroku</li>
               </ul>
             </div>
@@ -85,7 +108,7 @@
               <a href="#" class="video__link">
                 <ion-icon class="icon" name="globe-outline"></ion-icon>
               </a>
-              <a href="#" class="video__link">
+              <a href="https://github.com/higayoshiko/The-Red-Planet" class="video__link">
                 <ion-icon class="icon" name="code-slash"></ion-icon>
               </a>
             </div>
@@ -97,55 +120,84 @@
       </div>
     </section>
     <section class="project--colab">
+      <div class="colab__bg">
+        <video class="colab__bg-content" autoplay muted loop>
+          <source src="css/videos/matrix.mp4" type="video/mp4">
+        </video>
+      </div>
       <div class="container text--center">
         <h3 class="colab-tertiary">Collaborations</h3>
         <div class="card-ctn">
-          <div class="card">
-            <div class="card--absolute card--front">
-              <div class="card__img card--1">&nbsp;</div>
+          <div class="card card--1">
+              <div class="card__img card__img--1">&nbsp;</div>
               <img src="css/images/cure-cp.png" class="card--cp" alt="cure-depression">
               <p class="heading-content">Cure Depression</p>
               <ul class="u-list card__list">
-                <li class="transform--caps">react</li>
-                <li class="transform--caps">node</li>
-                <li class="transform--caps">bootstrap</li>
-                <li class="transform--caps">jquery</li>
+                <li class="transform--caps">html</li>
+                <li class="transform--caps">css</li>
+                <li class="transform--caps">javascript</li>
+                <li class="transform--caps">responsive</li>
+                <!-- <li><a class="btn-link heading--gradient" href="">Check it out!</a></li> -->
               </ul>
-            </div>
-            <div class="card--absolute card--back">
-              <div class="card--back-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda explicabo nesciunt pariatur vero iusto sunt!.</p>
-                <a class="btn-link heading--gradient" href="">Check it out!</a>
-              </div>
+            <div class="card-overlay">
+              <p class="card-overlay--text absolute--center">Click Me!</p>
             </div>
           </div>
-          <div class="card">
-            <div class="card--absolute card--front">
-              <div class="card__img card--2">&nbsp;</div>
+          <div class="card card--2">
+              <div class="card__img card__img--2">&nbsp;</div>
               <img src="" class="card--cp" alt="">
               <p class="heading-content">Virtual Postcard</p>
               <ul class="u-list card__list">
-                <li class="transform--caps">html5</li>
+                <li class="transform--caps">react</li>
+                <li class="transform--caps">node</li>
+                <li class="transform--caps">google api</li>
                 <li class="transform--caps">css</li>
-                <li class="transform--caps">bootstrap</li>
-                <li class="transform--caps">jquery</li>
+                <!-- <li><a class="btn-link heading--gradient" href="">Check it out!</a></li> -->
               </ul>
-            </div>
-            <div class="card--absolute card--back">
-              <div class="card--back-text">
-                <p>yellow</p>
-                <a class="btn-link heading--gradient" href="">Check it out!</a>
-              </div>
+            <div class="card-overlay">
+              <p class="card-overlay--text absolute--center">Click Me!</p>
+              <!-- <i class="colab__icon fa-10x fa-regular fa-arrow-pointer"></i> -->
             </div>
           </div>
         </div>
       </div>
       </div>
     </section>
+    <h3 class="snippet-tertiary">Snippets</h3>
+    <section class="project--snippets">
+      <div class="grid grid-4-columns">
+        <figure class="snippet"></figure>
+        <figure class="snippet">
+          <video class="snippet-video" autoplay muted loop>
+            <source src="css/videos/colorcycle.mp4" type="video/mp4">
+          </video>
+          <figcaption class="figcaption">
+            <a class="btn-link" href="https://codepen.io/higayoshiko/pen/bGLxpYe">
+              <ion-icon name="logo-codepen"></ion-icon>
+            </a>
+          </figcaption>
+        </figure>
+        <figure class="snippet">
+          <video class="snippet-video" autoplay muted loop>
+            <source src="css/videos/flipcards.mp4" type="video/mp4">
+          </video>
+          <figcaption class="figcaption">
+            <a class="btn-link" href="https://codepen.io/higayoshiko/pen/OJQEGXq">
+              <ion-icon name="logo-codepen"></ion-icon>
+            </a>
+          </figcaption>
+        </figure>
+        <figure class="snippet"></figure>
+      </div>
+    </section>
   </main>
-
+  <footer class="text--center">
+    <p class="heading-subcontent">Email me at higayoshiko@yahoo.com</p>
+    <p class="heading-subcontent">Built by Yoshiko Higa</p>
+  </footer>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="js/script.js" charset="utf-8"></script>
 </body>
 
 </html>
