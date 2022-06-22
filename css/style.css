@@ -148,7 +148,7 @@ body {
 .header__bg {
   background-image: linear-gradient(to left,
       rgba(4, 41, 58, .4), rgba(4, 41, 58, 1)),
-    url(images/profilepic.png);
+    url(images/profilepic.jpg);
   background-size: cover;
   background-position: center;
   height: 75vh;
@@ -446,11 +446,11 @@ body {
 }
 
 .card__img--1 {
-  background-image: url(images/cure.png);
+  background-image: url(images/cure.jpg);
 }
 
 .card__img--2 {
-  background-image: url(images/virtual.png);
+  background-image: url(images/virtual.jpg);
 }
 
 .card--cp {
