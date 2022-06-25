@@ -591,6 +591,10 @@ body {
   filter: grayscale(95%) blur(.5rem);
 }
 
+video::-webkit-media-controls {
+    display:none !important;
+}
+
 /******************************/
 /****** Footer ******/
 /****************************/
@@ -779,6 +783,10 @@ footer .heading-subcontent:last-child {
     width: 20rem;
   }
 
+  .header--hidden-info {
+    font-size: 2rem;
+  }
+
   .video-background {
     height: 33.6484rem;
     width: 42.517rem;
@@ -929,6 +937,14 @@ footer .heading-subcontent:last-child {
 
 /* 370px */
 @media only screen and (max-width: 23.125em) {
+  .heading-content {
+    font-size: 1.2rem;
+  }
+
+  .header__bg {
+    height: 12rem;
+    width: 12rem;
+  }
 
   .video-background,
   .video-overlay,
@@ -945,7 +961,6 @@ footer .heading-subcontent:last-child {
     height: 17.6484rem;
     background-position: right;
   }
-
 
   .card--cp {
     top: 8rem;
