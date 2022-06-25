@@ -1,4 +1,5 @@
 (function() {
+
   const card = document.querySelectorAll(".card-overlay");
   const backText = document.querySelectorAll(".card-overlay--text");
 
@@ -35,7 +36,6 @@
   function addRemoveIconShadow(icon) {
     removeDisplaytoSiblings();
   }
-
 
   icons.forEach((icon) => {
     icon.addEventListener("click", (event) => {
