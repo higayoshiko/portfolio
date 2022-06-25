@@ -591,8 +591,8 @@ body {
   filter: grayscale(95%) blur(.5rem);
 }
 
-video::-webkit-media-controls {
-    display:none !important;
+video::-webkit-media-controls-start-playback-button {
+  display: none;
 }
 
 /******************************/
