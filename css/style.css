@@ -343,7 +343,7 @@ body {
 
 .video__icons {
   position: absolute;
-  top: 15rem;
+  top: 20rem;
   display: flex;
   flex-direction: column;
   gap: 8rem;
@@ -592,15 +592,17 @@ body {
 }
 
 video::-webkit-media-controls-panel {
-  display: none!important;
+  display: none !important;
   -webkit-appearance: none;
 }
+
 video::--webkit-media-controls-play-button {
-  display: none!important;
+  display: none !important;
   -webkit-appearance: none;
 }
+
 video::-webkit-media-controls-start-playback-button {
-  display: none!important;
+  display: none !important;
   -webkit-appearance: none;
 }
 
@@ -796,6 +798,12 @@ footer .heading-subcontent:last-child {
     font-size: 2rem;
   }
 
+  .contact-info {
+    position: absolute;
+    bottom: 1rem;
+    left: 2rem;
+  }
+
   .video-background {
     height: 33.6484rem;
     width: 42.517rem;
@@ -953,6 +961,14 @@ footer .heading-subcontent:last-child {
   .header__bg {
     height: 12rem;
     width: 12rem;
+  }
+
+  .header--hidden-info {
+    font-size: 1.6rem;
+  }
+
+  .contact-info ion-icon {
+    font-size: 1.8rem;
   }
 
   .video-background,
