@@ -700,6 +700,14 @@ footer .heading-subcontent:last-child {
   .card__list {
     padding: 6rem 15rem 5rem 2rem;
   }
+
+  .project--snippets {
+    max-width: 70vw;
+  }
+
+  .snippet {
+    height: 25rem;
+  }
 }
 
 /* 1050px */
