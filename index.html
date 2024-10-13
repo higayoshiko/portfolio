@@ -1,273 +1,358 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="profile" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="description" content="profile">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600&family=Work+Sans:wght@800;900&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600&family=Work+Sans:wght@800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css" />
 
-  <link rel="stylesheet" href="css/style.min.css" >
+    <title>Yoshiko Higa</title>
+  </head>
 
-  <title>Yoshiko Higa</title>
-</head>
-
-<body>
-
-  <header class="header" id="header">
-    <div class="container grid grid-2-columns">
-      <div>
-        <div class="all-headers header--main">
-          <p class="heading-subcontent heading--gradient">Hello, my name is</p>
-          <h1 class="heading-primary">Yoshiko Higa.</h1>
-          <p class="heading-content">A self-taught Web Developer.</p>
+  <body>
+    <header class="header" id="header">
+      <div class="container grid grid-2-columns">
+        <div>
+          <div class="all-headers header--main">
+            <p class="heading-subcontent heading--gradient">
+              Hello, my name is
+            </p>
+            <h1 class="heading-primary">Yoshiko Higa.</h1>
+            <p class="heading-content">A self-taught Web Developer.</p>
+          </div>
+          <div class="all-headers discord display--none">
+            <p class="heading-content">
+              Message me on Discord! <br />
+              <span class="header--hidden-info">Yushi#8385</span> <br />
+              Talk to you soon!
+            </p>
+          </div>
+          <div class="all-headers zoom display--none">
+            <p class="heading-content">
+              Contact me on Zoom! <br />
+              <span class="header--hidden-info">yoshikohiga@yahoo.com</span>
+              <br />
+              Talk to you soon!
+            </p>
+          </div>
         </div>
-        <div class="all-headers discord display--none">
-          <p class="heading-content">Message me on Discord! <br />
-            <span class="header--hidden-info">Yushi#8385</span> <br />
-            Talk to you soon!
-          </p>
-        </div>
-        <div class="all-headers zoom display--none">
-          <p class="heading-content">Contact me on Zoom! <br />
-            <span class="header--hidden-info">yoshikohiga@yahoo.com</span> <br />
-            Talk to you soon!
-          </p>
-        </div>
+        <div class="header__bg"></div>
       </div>
-      <div class="header__bg"></div>
-    </div>
-    <div class="contact-info">
-      <a href="https://github.com/higayoshiko">
-        <ion-icon name="logo-github"></ion-icon>
-      </a>
-      <a href="https://linkedin.com/in/higa-yoshiko">
-        <ion-icon name="logo-linkedin"></ion-icon>
-      </a>
-      <a href="#header">
-        <ion-icon class="contact-info--appear" name="logo-discord"></ion-icon>
-      </a>
-      <a href="#header">
-        <ion-icon class="contact-info--appear" name="videocam"></ion-icon>
-      </a>
-    </div>
-    <p class="header-email">yoshikohiga<span class="at">@</span>yahoo.com</p>
-  </header>
+      <div class="contact-info">
+        <a href="https://github.com/higayoshiko">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://linkedin.com/in/higa-yoshiko">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a href="#header">
+          <ion-icon class="contact-info--appear" name="logo-discord"></ion-icon>
+        </a>
+        <a href="#header">
+          <ion-icon class="contact-info--appear" name="videocam"></ion-icon>
+        </a>
+      </div>
+      <p class="header-email">yoshikohiga<span class="at">@</span>yahoo.com</p>
+    </header>
 
-  <main>
-    <section class="project--indi">
-      <div class="container text--center">
-        <h3 class="heading-tertiary">Individual Projects</h3>
-        <div class="video-background video--left">
-          <div class="video-overlay grid grid-2-columns">
-            <ion-icon name="logo-yen" class="icon--bg"></ion-icon>
-            <div class="video__texts video__texts--r">
-              <h2 class="heading-secondary">Nippon Exchange</h2>
-              <ul class="u-list">
-                <li class="heading-subcontent transform--caps">html5</li>
-                <li class="heading-subcontent transform--caps">css</li>
-                <li class="heading-subcontent transform--caps">vanilla js</li>
-                <li class="heading-subcontent transform--caps">client-side api</li>
-              </ul>
-            </div>
-            <div class="video__icons icons--left">
-              <!-- <a href="#" class="video__link">
+    <main>
+      <section class="project--indi">
+        <div class="container text--center">
+          <h3 class="heading-tertiary">Individual Projects</h3>
+          <div class="video-background video--left">
+            <div class="video-overlay grid grid-2-columns">
+              <ion-icon name="logo-yen" class="icon--bg"></ion-icon>
+              <div class="video__texts video__texts--r">
+                <h2 class="heading-secondary">Nippon Exchange</h2>
+                <ul class="u-list">
+                  <li class="heading-subcontent transform--caps">html5</li>
+                  <li class="heading-subcontent transform--caps">css</li>
+                  <li class="heading-subcontent transform--caps">vanilla js</li>
+                  <li class="heading-subcontent transform--caps">
+                    client-side api
+                  </li>
+                </ul>
+              </div>
+              <div class="video__icons icons--left">
+                <!-- <a href="#" class="video__link">
                 <ion-icon class="icon" name="information-circle"></ion-icon>
               </a> -->
-              <a href="https://higayoshiko.github.io/Nippon-Exchange/" class="video__link">
-                <ion-icon class="icon" name="globe-outline"></ion-icon>
-              </a>
-              <a href="https://github.com/higayoshiko/Nippon-Exchange" class="video__link">
-                <ion-icon class="icon" name="code-slash"></ion-icon>
-              </a>
+                <a
+                  href="https://higayoshiko.github.io/Nippon-Exchange/"
+                  class="video__link"
+                >
+                  <ion-icon class="icon" name="globe-outline"></ion-icon>
+                </a>
+                <a
+                  href="https://github.com/higayoshiko/Nippon-Exchange"
+                  class="video__link"
+                >
+                  <ion-icon class="icon" name="code-slash"></ion-icon>
+                </a>
+              </div>
             </div>
-          </div>
-          <!-- <video class="video-content" preload="none" autoplay muted loop>
+            <!-- <video class="video-content" preload="none" autoplay muted loop>
             <source src="css/videos/nippon-exchange-vid.mp4" type="video/mp4">
           </video> -->
-          <picture>
-            <source srcset="css/images/nippon.webp" type="image/webp">
-            <img class="video-content" src="css/images/nippon.webp" alt="Nippon Exchange website">
-          </picture>
-        </div>
-        <div class="video-background">
-          <div class="video-overlay grid grid-2-columns">
-            <div class="video__texts video__texts--l">
-              <h2 class="heading-secondary">The Red Planet</h2>
-              <ul class="u-list">
-                <li class="heading-subcontent transform--caps">ejs</li>
-                <li class="heading-subcontent transform--caps">sass</li>
-                <li class="heading-subcontent transform--caps">jquery</li>
-                <li class="heading-subcontent transform--caps">node/express</li>
-                <li class="heading-subcontent transform--caps">heroku</li>
-              </ul>
-            </div>
-            <ion-icon name="planet" class="icon--bg"></ion-icon>
-            <div class="video__icons icons--right">
-              <!-- <a href="#" class="video__link">
+            <picture>
+              <source srcset="css/images/nippon.webp" type="image/webp" />
+              <img
+                class="video-content"
+                src="css/images/nippon.webp"
+                alt="Nippon Exchange website"
+              />
+            </picture>
+          </div>
+          <div class="video-background">
+            <div class="video-overlay grid grid-2-columns">
+              <div class="video__texts video__texts--l">
+                <h2 class="heading-secondary">The Red Planet</h2>
+                <ul class="u-list">
+                  <li class="heading-subcontent transform--caps">ejs</li>
+                  <li class="heading-subcontent transform--caps">sass</li>
+                  <li class="heading-subcontent transform--caps">jquery</li>
+                  <li class="heading-subcontent transform--caps">
+                    node/express
+                  </li>
+                  <li class="heading-subcontent transform--caps">heroku</li>
+                </ul>
+              </div>
+              <ion-icon name="planet" class="icon--bg"></ion-icon>
+              <div class="video__icons icons--right">
+                <!-- <a href="#" class="video__link">
                 <ion-icon class="icon" name="information-circle"></ion-icon>
               </a> -->
-              <a href="https://github.com/higayoshiko/The-Red-Planet" class="video__link">
-                <ion-icon class="icon" name="globe-outline"></ion-icon>
-              </a>
-              <a href="https://github.com/higayoshiko/The-Red-Planet" class="video__link">
-                <ion-icon class="icon" name="code-slash"></ion-icon>
-              </a>
+                <a
+                  href="https://github.com/higayoshiko/The-Red-Planet"
+                  class="video__link"
+                >
+                  <ion-icon class="icon" name="globe-outline"></ion-icon>
+                </a>
+                <a
+                  href="https://github.com/higayoshiko/The-Red-Planet"
+                  class="video__link"
+                >
+                  <ion-icon class="icon" name="code-slash"></ion-icon>
+                </a>
+              </div>
             </div>
-          </div>
-          <!-- <video class="video-content" preload="none" autoplay muted loop>
+            <!-- <video class="video-content" preload="none" autoplay muted loop>
             <source src="css/videos/red-planet-vid.mp4" type="video/mp4">
           </video> -->
-          <picture>
-            <source srcset="css/images/red.webp" type="image/webp">
-            <img class="video-content" src="css/images/red.webp" alt="The Red Planet website">
-          </picture>
-        </div>
-        <div class="video-background video--left">
-          <div class="video-overlay grid grid-2-columns">
-            <ion-icon name="logo-yen" class="icon--bg"></ion-icon>
-            <div class="video__texts video__texts--r">
-              <h2 class="heading-secondary">Dear Anne Blog</h2>
-              <ul class="u-list">
-                <li class="heading-subcontent transform--caps">Ejs</li>
+            <picture>
+              <source srcset="css/images/red.webp" type="image/webp" />
+              <img
+                class="video-content"
+                src="css/images/red.webp"
+                alt="The Red Planet website"
+              />
+            </picture>
+          </div>
+          <div class="video-background video--left">
+            <div class="video-overlay grid grid-2-columns">
+              <ion-icon name="logo-yen" class="icon--bg"></ion-icon>
+              <div class="video__texts video__texts--r">
+                <h2 class="heading-secondary">Furusato Nozei</h2>
+                <ul class="u-list">
+                  <!-- <li class="heading-subcontent transform--caps">Ejs</li>
                 <li class="heading-subcontent transform--caps">Css</li>
                 <li class="heading-subcontent transform--caps">Node/Express</li>
-                <li class="heading-subcontent transform--caps">MongoDB/Mongoose</li>
-              </ul>
-            </div>
-            <div class="video__icons icons--left">
-              <!-- <a href="#" class="video__link">
+                <li class="heading-subcontent transform--caps">MongoDB/Mongoose</li> -->
+                  <li class="heading-subcontent transform--caps">Html</li>
+                  <li class="heading-subcontent transform--caps">Css</li>
+                  <li class="heading-subcontent transform--caps">Javascript</li>
+                </ul>
+              </div>
+              <div class="video__icons icons--left">
+                <a
+                  href="https://higayoshiko.github.io/furusato/"
+                  class="video__link"
+                >
+                  <ion-icon class="icon" name="globe-outline"></ion-icon>
+                </a>
+                <!-- <a href="#" class="video__link">
                 <ion-icon class="icon" name="information-circle"></ion-icon>
               </a> -->
-              <a href="https://github.com/higayoshiko/Dear-Anne" class="video__link">
-                <ion-icon class="icon" name="globe-outline"></ion-icon>
-              </a>
-              <a href="https://github.com/higayoshiko/Dear-Anne" class="video__link">
-                <ion-icon class="icon" name="code-slash"></ion-icon>
-              </a>
+                <!-- <a
+                  href="https://higayoshiko.github.io/furusato/"
+                  class="video__link"
+                >
+                  <ion-icon class="icon" name="globe-outline"></ion-icon>
+                </a>
+                <a
+                  href="https://github.com/higayoshiko/Dear-Anne"
+                  class="video__link"
+                >
+                  <ion-icon class="icon" name="code-slash"></ion-icon>
+                </a> -->
+              </div>
             </div>
-          </div>
-          <!-- <video class="video-content" preload="none" autoplay muted loop>
+            <!-- <video class="video-content" preload="none" autoplay muted loop>
             <source src="css/videos/nippon-exchange-vid.mp4" type="video/mp4">
           </video> -->
-          <picture>
-            <source srcset="css/images/dear-anne.webp" type="image/webp">
-            <img class="video-content" src="css/images/dear-anne.webp" alt="Dear Anne website">
-          </picture>
+            <picture>
+              <source
+                srcset="css/images/furusato nozei.png"
+                type="image/webp"
+              />
+              <img
+                class="video-content"
+                src="css/images/furusato nozei.png"
+                alt="Furusato nozei"
+              />
+            </picture>
+          </div>
         </div>
-      </div>
-    </section>
-    <section class="project--colab">
-      <div class="colab__bg">
-        <!-- <video class="colab__bg-content" autoplay muted loop>
+      </section>
+      <section class="project--colab">
+        <div class="colab__bg">
+          <!-- <video class="colab__bg-content" autoplay muted loop>
           <source src="css/videos/matrix.mp4" type="video/mp4">
         </video> -->
-      </div>
-      <div class="container text--center">
-        <h3 class="colab-tertiary">Collaborations</h3>
-        <div class="card-ctn">
-          <div>
-            <div class="card card--1">
-              <div class="card__img card__img--1">&nbsp;</div>
-              <picture>
-                <source srcset="css/images/cure-cp.webp" type="image/webp">
-                <img src="css/images/cure-cp.webp" class="card--cp" alt="cure-depression">
-              </picture>
+        </div>
+        <div class="container text--center">
+          <h3 class="colab-tertiary">Collaborations</h3>
+          <div class="card-ctn">
+            <div>
+              <div class="card card--1">
+                <div class="card__img card__img--1">&nbsp;</div>
+                <picture>
+                  <source srcset="css/images/cure-cp.webp" type="image/webp" />
+                  <img
+                    src="css/images/cure-cp.webp"
+                    class="card--cp"
+                    alt="cure-depression"
+                  />
+                </picture>
 
-              <p class="heading-content">Fight Depression</p>
-              <ul class="u-list card__list">
-                <li class="transform--caps">html</li>
-                <li class="transform--caps">css</li>
-                <li class="transform--caps">javascript</li>
-              </ul>
-              <div class="card-overlay">
-                <p class="card-overlay--text absolute--center">Click Me!</p>
+                <p class="heading-content">Fight Depression</p>
+                <ul class="u-list card__list">
+                  <li class="transform--caps">html</li>
+                  <li class="transform--caps">css</li>
+                  <li class="transform--caps">javascript</li>
+                </ul>
+                <div class="card-overlay">
+                  <p class="card-overlay--text absolute--center">Click Me!</p>
+                </div>
               </div>
+              <a
+                class="btn-link"
+                href="https://github.com/higayoshiko/Fight-Depression"
+                >See more<span class="link-arrow"> &rarr;</span></a
+              >
             </div>
-            <a class="btn-link" href="https://github.com/higayoshiko/Fight-Depression">See more<span class="link-arrow"> &rarr;</span></a>
-          </div>
-          <div>
-            <div class="card card--2">
-              <div class="card__img card__img--2">&nbsp;</div>
-              <picture>
-                <source srcset="" type="image/webp">
-                <img src="" class="card--cp" alt="">
-              </picture>
-              <p class="heading-content">Virtual Postcard</p>
-              <ul class="u-list card__list">
-                <li class="transform--caps">react</li>
-                <li class="transform--caps">node</li>
-                <li class="transform--caps">google api</li>
-                <li class="transform--caps">css</li>
-              </ul>
-              <div class="card-overlay">
-                <p class="card-overlay--text absolute--center">Click Me!</p>
+            <div>
+              <div class="card card--2">
+                <div class="card__img card__img--2">&nbsp;</div>
+                <picture>
+                  <source srcset="" type="image/webp" />
+                  <img src="" class="card--cp" alt="" />
+                </picture>
+                <p class="heading-content">Virtual Postcard</p>
+                <ul class="u-list card__list">
+                  <li class="transform--caps">react</li>
+                  <li class="transform--caps">node</li>
+                  <li class="transform--caps">google api</li>
+                  <li class="transform--caps">css</li>
+                </ul>
+                <div class="card-overlay">
+                  <p class="card-overlay--text absolute--center">Click Me!</p>
+                </div>
               </div>
+              <a
+                class="btn-link"
+                href="https://github.com/chingu-voyages/v36-geckos-team-12"
+                >See more<span class="link-arrow"> &rarr;</span></a
+              >
             </div>
-            <a class="btn-link" href="https://github.com/chingu-voyages/v36-geckos-team-12">See more<span class="link-arrow"> &rarr;</span></a>
           </div>
         </div>
+      </section>
+      <div class="text--center">
+        <h3 class="heading-tertiary">Snippets</h3>
       </div>
-    </section>
-    <div class="text--center">
-      <h3 class="heading-tertiary">Snippets</h3>
-    </div>
-    <section class="project--snippets">
-      <div class="grid grid-4-columns">
-        <figure class="snippet">
-          <picture>
-            <source srcset="css/images/feature-card.webp" type="image/webp">
-            <img src="css/images/feature-card.webp" class="snippet-video" alt="feature-card">
-          </picture>
-          <figcaption class="figcaption">
-            <a class="btn-link" href="https://codepen.io/higayoshiko/pen/dymbVLL">
-              <ion-icon name="logo-codepen"></ion-icon>
-            </a>
-          </figcaption>
-        </figure>
-        <figure class="snippet">
-          <video class="snippet-video" autoplay muted loop>
-            <source src="css/videos/colorcycle.mp4" type="video/mp4">
-          </video>
-          <figcaption class="figcaption">
-            <a class="btn-link" href="https://codepen.io/higayoshiko/pen/bGLxpYe">
-              <ion-icon name="logo-codepen"></ion-icon>
-            </a>
-          </figcaption>
-        </figure>
-        <figure class="snippet">
-          <video class="snippet-video" autoplay muted loop>
-            <source src="css/videos/flipcards.mp4" type="video/mp4">
-          </video>
-          <figcaption class="figcaption">
-            <a class="btn-link" href="https://codepen.io/higayoshiko/pen/OJQEGXq">
-              <ion-icon name="logo-codepen"></ion-icon>
-            </a>
-          </figcaption>
-        </figure>
-        <figure class="snippet">
-          <video class="snippet-video" autoplay muted loop>
-            <source src="css/videos/blob.mp4" type="video/mp4">
-          </video>
-          <figcaption class="figcaption">
-            <a class="btn-link" href="https://codepen.io/higayoshiko/pen/WNzEZpz">
-              <ion-icon name="logo-codepen"></ion-icon>
-            </a>
-          </figcaption>
-        </figure>
-      </div>
-    </section>
-  </main>
-  <footer class="text--center">
-    <p class="heading-subcontent">Email me at yoshikohiga@yahoo.com</p>
-    <p class="heading-subcontent">Built by Yoshiko Higa</p>
-  </footer>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  <script src="js/script.js"></script>
-</body>
-
+      <section class="project--snippets">
+        <div class="grid grid-4-columns">
+          <figure class="snippet">
+            <picture>
+              <source srcset="css/images/feature-card.webp" type="image/webp" />
+              <img
+                src="css/images/feature-card.webp"
+                class="snippet-video"
+                alt="feature-card"
+              />
+            </picture>
+            <figcaption class="figcaption">
+              <a
+                class="btn-link"
+                href="https://codepen.io/higayoshiko/pen/dymbVLL"
+              >
+                <ion-icon name="logo-codepen"></ion-icon>
+              </a>
+            </figcaption>
+          </figure>
+          <figure class="snippet">
+            <video class="snippet-video" autoplay muted loop>
+              <source src="css/videos/colorcycle.mp4" type="video/mp4" />
+            </video>
+            <figcaption class="figcaption">
+              <a
+                class="btn-link"
+                href="https://codepen.io/higayoshiko/pen/bGLxpYe"
+              >
+                <ion-icon name="logo-codepen"></ion-icon>
+              </a>
+            </figcaption>
+          </figure>
+          <figure class="snippet">
+            <video class="snippet-video" autoplay muted loop>
+              <source src="css/videos/flipcards.mp4" type="video/mp4" />
+            </video>
+            <figcaption class="figcaption">
+              <a
+                class="btn-link"
+                href="https://codepen.io/higayoshiko/pen/OJQEGXq"
+              >
+                <ion-icon name="logo-codepen"></ion-icon>
+              </a>
+            </figcaption>
+          </figure>
+          <figure class="snippet">
+            <video class="snippet-video" autoplay muted loop>
+              <source src="css/videos/blob.mp4" type="video/mp4" />
+            </video>
+            <figcaption class="figcaption">
+              <a
+                class="btn-link"
+                href="https://codepen.io/higayoshiko/pen/WNzEZpz"
+              >
+                <ion-icon name="logo-codepen"></ion-icon>
+              </a>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
+    <footer class="text--center">
+      <p class="heading-subcontent">Email me at yoshikohiga@yahoo.com</p>
+      <p class="heading-subcontent">Built by Yoshiko Higa</p>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
